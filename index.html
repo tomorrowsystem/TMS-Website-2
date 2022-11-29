@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomorrow System</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #main {
+            position: relative;
+            height: calc(100vh - 100px);
+            background: no-repeat center url('under-construction-animate.svg');
+        }
+
+        #logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        #contact {
+            position: absolute;
+            top: 30px;
+            right: 20px;
+        }
+
+        #info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font: 13px sans-serif;
+            color: #263238;
+            font-weight :bold;
+            line-height: 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+            #info {
+                display: none;
+            }
+        }
+
+        #footer {
+            height: 100px;
+            padding: 10px 20px;
+            background: #263238;
+            color: #ffffff;
+            font-family: 'Oswald',sans-serif;
+            font-size: min(10vw, 80px);
+            line-height: 80px;
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function playMusic() {
+            var audio = new Audio('reverse_tone_engine_idle.mp3');
+            audio.volume = 0.1;
+            audio.play();
+            document.removeEventListener('click', playMusic);
+        }
+
+        window.addEventListener('load', function () {
+            document.addEventListener('click', playMusic);
+        })
+    </script>
+</head>
+    <body>
+        <div id="main">
+            <img id="logo" src="logo-dark.png"/>
+            <a id="contact" href="mailto:support@tomorrowsystem.com">
+                <img src="contact-us.gif"/>
+            </a>
+            <div id="info">
+                Soluzioni Software e Hardware 360°<br/>
+                Tomorrow System SRL - Via Azzi 21<br/>
+                San Colombano al Lambro (MI)
+            </div>
+        </div>
+        <div id="footer">SITO IN COSTRUZIONE</div>
+    </body>
+</html>
