@@ -7,7 +7,7 @@
 
         .tms-info {
             display: none;
-            font: 6.5px sans-serif;
+            font: 6px sans-serif;
             color: #263238;
             font-weight :bold;
         }
@@ -471,14 +471,14 @@
             d="M514.28,440.74c0,.13-78.7.23-175.76.23s-175.78-.1-175.78-.23,78.69-.23,175.78-.23S514.28,440.61,514.28,440.74Z"
             style="fill: rgb(38, 50, 56); transform-origin: 338.51px 440.74px;" id="eld90m50adg8n" class="animable">
         </path>
-        <foreignObject xmlns="http://www.w3.org/2000/svg" class="animable tms-info" x="282" y="386" width="112" height="7">
+        <foreignObject xmlns="http://www.w3.org/2000/svg" class="animable tms-info" x="288" y="386" width="112" height="7">
             <div xmlns="http://www.w3.org/1999/xhtml">Soluzioni Software e Hardware 360°</div>
         </foreignObject>
-        <foreignObject xmlns="http://www.w3.org/2000/svg" class="animable tms-info" x="282" y="399" width="112" height="7">
-            <div xmlns="http://www.w3.org/1999/xhtml">Tomorrow System SRL - Via Azzi 21</div>
+        <foreignObject xmlns="http://www.w3.org/2000/svg" class="animable tms-info" x="283" y="399" width="112" height="7">
+            <div xmlns="http://www.w3.org/1999/xhtml">Via Villoresi, 26 - Settimo Milanese (MI)</div>
         </foreignObject>
-        <foreignObject xmlns="http://www.w3.org/2000/svg" class="animable tms-info" x="289" y="411" width="98" height="7">
-            <div xmlns="http://www.w3.org/1999/xhtml">San Colombano al Lambro (MI)</div>
+        <foreignObject xmlns="http://www.w3.org/2000/svg" class="animable tms-info" x="314" y="411" width="98" height="7">
+            <div xmlns="http://www.w3.org/1999/xhtml">Tel: 02 82196706</div>
         </foreignObject>
         <path
             d="M380.92,396.09c0,.14-19.28.26-43.06.26s-43.06-.12-43.06-.26,19.28-.26,43.06-.26S380.92,396,380.92,396.09Z"
